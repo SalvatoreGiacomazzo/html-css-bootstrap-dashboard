@@ -32,42 +32,98 @@
         </div>  
     </header>
 <!--Title and button-->
-   <div class="d-flex justify-content-between">
+   <div class="d-flex mt-3 container-md justify-content-between">
    <h2>Catalogo Libri</h2>
    <button type="button" class="btn btn-primary">Aggiungi Libro</button>
    </div>
     <!--Main Table-->
+   <div class="mt-2 container-lg">
     <table class="table table-hover table-striped">
         <thead>
           <tr>
             
             <th scope="col">Titolo </th>
-            <th scope="col">Stato </th>
+            <th class="d-none d-md-table-cell" scope="col">Data prestito </th>
+            <th scope="col">Stato</th>
             <th scope="col">Azioni</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>xx</td>
-            <td>x</td>
-            <td>x</td>
+            <th scope="row">I Pilastri della Terra</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>xx</td>
-            <td>x</td>
-            <td>x</td>
+            <th scope="row">I Promessi Sposi</th>
+            <td class="d-none d-md-table-cell">- </td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>x</td>
-            <td>x</td>
-            <td>x</td>
+            <th scope="row">Il Signore Degli Anelli</th>
+            <td class="d-none d-md-table-cell">18/10/2023</td>
+            <td><span class="badge bg-warning">In Prestito</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Harry Potter e la Pietra Filosofale</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td> <span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Il Codice Da Vinci</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-danger">Non disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Shining</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">La Divina Commedia</th>
+            <td class="d-none d-md-table-cell">21/09/2023</td>
+            <td><span class="badge bg-warning">In Prestito</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Il Trono di Spade</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Il Mondo di Sofia</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-danger">Non disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</th>
+            <td class="d-none d-md-table-cell">25/09/2023</td>
+            <td><span class="badge bg-warning">In Prestito</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">Il Piccolo Principe</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
+          </tr>
+          <tr>
+            <th scope="row">La Storia Infinita</th>
+            <td class="d-none d-md-table-cell">-</td>
+            <td><span class="badge bg-success">Disponibile</span></td>
+            <td><i class="fa-solid d-inline fa-pencil bg-white  text-secondary rounded d-inline border-secondary"></i> <i class="fa-solid fa-trash bg-white d-inline  text-secondary rounded border-secondary"></i></td>
           </tr>
         </tbody>
       </table>
-
+    </div>
 
 
 
