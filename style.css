@@ -14,3 +14,7 @@ color:rgb(128, 128, 128);}
 li:hover{color:white;}
 
 /*list*/
+.main-container .table-container, .accordion-container, .checkbox-container{border: 2px solid black;
+margin-top:20px;
+min-height: 200px;}
+
